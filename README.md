@@ -6,7 +6,7 @@ cp slack.sh /usr/local/nagios/libexec/slack_nagios.sh
 ```
 
 Modify these variables for your environment
-``
+```
 #Your Slack Channel Name
 SLACK_CHANNEL="#nagios-alerts"  
 WEBHOOK="Enter your webhook URL here"
