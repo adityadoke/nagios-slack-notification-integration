@@ -1,0 +1,1 @@
+# nagios-slack-notification-integration
