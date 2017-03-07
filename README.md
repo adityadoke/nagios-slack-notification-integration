@@ -5,6 +5,13 @@ Download slack_nagios.sh file from Git Repository and copy it to your nagios lib
 cp slack.sh /usr/local/nagios/libexec/slack_nagios.sh
 ```
 
+Modify these variables for your environment
+``
+#Your Slack Channel Name
+SLACK_CHANNEL="#nagios-alerts"  
+WEBHOOK="Enter your webhook URL here"
+``
+
 Define Nagios command config lines for host and service notification as shown to commands.cfg file
 
 ```
