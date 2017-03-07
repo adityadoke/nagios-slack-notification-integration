@@ -1,6 +1,6 @@
 # Nagios-Slack-Notification-Integration
 
-Define Nagios command config lines for host and service notification to commands.cfg
+Define Nagios command config lines for host and service notification as shown to commands.cfg file
 
 ```
 #slack command
@@ -27,10 +27,10 @@ define command {
 ```
 
 
-Define slack contact and add it in contact group members as shown in contacts.cfg
+Define slack contact and add it in contact group members as shown in contacts.cfg file
 
 ```
-#Slack Group
+#Slack Contact
 define contact {
       contact_name                             slack
       alias                                    Slack
