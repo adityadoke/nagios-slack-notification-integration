@@ -2,6 +2,7 @@
 
 Nagios config lines that are added to commands.cfg
 
+```
 #slack command
 define command {
       command_name     notify-service-by-slack
@@ -22,3 +23,5 @@ define command {
 "$SERVICEOUTPUT$" \
 "$NOTIFICATIONTYPE$"
 }
+
+```
