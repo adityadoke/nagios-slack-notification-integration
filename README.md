@@ -1,5 +1,10 @@
 # Nagios-Slack-Notification-Integration
 
+Download slack_nagios.sh file from Git Repository and copy it to your nagios lib directory .
+```
+cp slack.sh /usr/local/nagios/libexec/slack_nagios.sh
+```
+
 Define Nagios command config lines for host and service notification as shown to commands.cfg file
 
 ```
