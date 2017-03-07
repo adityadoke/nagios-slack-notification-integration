@@ -1,6 +1,6 @@
 # Nagios-Slack-Notification-Integration
 
-Nagios config lines that are added to commands.cfg
+Define Nagios command config lines for host and service notification to commands.cfg
 
 ```
 #slack command
@@ -54,7 +54,7 @@ define contactgroup{
 Restart Nagios.
 
 ```shell
-service nagios3 restart
+service nagios restart
 ```
 
 
